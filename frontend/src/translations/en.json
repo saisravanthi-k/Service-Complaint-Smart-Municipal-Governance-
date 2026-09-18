@@ -1,0 +1,164 @@
+{
+  "navbar": {
+    "title": "Service Complaint Portal",
+    "subtitle": "Government of Telangana • Municipal Civic AI",
+    "notifications": "Notifications",
+    "logout": "Logout",
+    "role_citizen": "Citizen",
+    "ward": "Ward",
+    "languages_bar_label": "Select Language:"
+  },
+  "languages": {
+    "en": "English",
+    "te": "తెలుగు (Telugu)",
+    "hi": "हिन्दी (Hindi)"
+  },
+  "banner": {
+    "title": "Citizen Services Complaint Portal",
+    "subtitle": "Submit municipal complaints via voice, track real-time SLA progress, and give feedback.",
+    "new_complaint": "New Complaint",
+    "close_form": "Close Form"
+  },
+  "voice_recorder": {
+    "title": "Voice Complaint Filing (Multilingual AI)",
+    "subtitle": "Powered by OpenAI Whisper Speech-to-Text & AI Department Detection",
+    "ai_active": "AI Speech Active",
+    "record_button": "Record Audio",
+    "stop_button": "Stop & Transcribe",
+    "sample_label": "Or select sample speech text:",
+    "processing": "Processing Speech with AI...",
+    "result_header": "Whisper STT Result",
+    "confidence": "Confidence",
+    "telugu_transcript_label": "Voice Transcript:",
+    "english_summary_label": "Translation & Summary:",
+    "detected_department": "Detected Department",
+    "predicted_priority": "Predicted Priority",
+    "sample_options": [
+      "Drinking water pipeline burst near street 4, water is leaking everywhere. Please repair immediately.",
+      "Street lights are not working, it is completely dark at night.",
+      "Garbage bin is overflowing and smelling bad. Mosquitoes are increasing.",
+      "There is a huge pothole on the road causing vehicle accidents."
+    ]
+  },
+  "form": {
+    "heading": "Complaint Registration Form",
+    "title_label": "Complaint Title / Issue Subject",
+    "title_placeholder": "e.g. Drinking water pipeline burst near street 4",
+    "description_label": "Detailed Description",
+    "description_placeholder": "Describe the issue in detail, including landmarks if any...",
+    "department_label": "Department / Category",
+    "priority_label": "Urgency Level / Priority",
+    "ward_label": "Ward Zone",
+    "sla_preview_title": "Target Resolution SLA Time Limit:",
+    "media_label": "Upload Media Proof (Image / Video)",
+    "media_choose_button": "Choose File (Image/Video)",
+    "media_selected": "Selected Media:",
+    "media_hint": "Supports PNG, JPG, MP4, WEBM up to 20MB",
+    "submit_button": "Submit Complaint"
+  },
+  "departments": {
+    "1": "Water Supply & Sanitation",
+    "2": "Roads & Infrastructure",
+    "3": "Electricity & Power Grid",
+    "4": "Public Health & Waste",
+    "5": "Town Planning & Encroachment"
+  },
+  "priorities": {
+    "CRITICAL": "🚨 CRITICAL (Emergency)",
+    "HIGH": "⚠️ HIGH (Urgent)",
+    "MEDIUM": "⚡ MEDIUM (Standard)",
+    "LOW": "ℹ️ LOW (Routine)",
+    "CRITICAL_short": "CRITICAL Priority",
+    "HIGH_short": "HIGH Priority",
+    "MEDIUM_short": "MEDIUM Priority",
+    "LOW_short": "LOW Priority"
+  },
+  "wards": {
+    "WARD-01": "WARD-01: Charminar East",
+    "WARD-02": "WARD-02: Banjara Hills",
+    "WARD-03": "WARD-03: Hitec City North",
+    "WARD-04": "WARD-04: Secunderabad Central",
+    "WARD-05": "WARD-05: Kukatpally Industrial"
+  },
+  "tracking": {
+    "heading": "My Complaints & Live SLA Tracking",
+    "no_complaints": "No active complaints found. File your first complaint above.",
+    "give_feedback": "Give Feedback"
+  },
+  "status": {
+    "PENDING": "PENDING",
+    "IN_PROGRESS": "IN PROGRESS",
+    "RESOLVED": "RESOLVED",
+    "REJECTED": "REJECTED"
+  },
+  "sla_timer": {
+    "breached": "SLA Breached by {hrs}h {mins}m",
+    "remaining": "{hrs}h {mins}m {secs}s remaining"
+  },
+  "feedback_modal": {
+    "heading": "Resolution Feedback",
+    "subtitle": "Rate your experience for complaint {complaint_number}",
+    "placeholder": "Enter your feedback or suggestions here...",
+    "cancel": "Cancel",
+    "submit": "Submit Feedback"
+  },
+  "chatbot": {
+    "toggle_button": "Citizen Rights Bot",
+    "header_title": "Citizen Rights Assistant",
+    "header_subtitle": "Multilingual Civic Governance Bot",
+    "welcome_message": "Greetings! I am the Citizen Rights Assistant AI Bot. Ask me anything about complaint process, services, and SLA timelines.",
+    "placeholder": "Ask a question about citizen services...",
+    "default_response": "Regarding your query: As per Municipal Governance Regulations, an SMS with your tracking ticket number is dispatched immediately upon complaint submission.",
+    "faq_sla": "Standard SLA limits are 24 hours for water supply and drainage issues, 6-12 hours for power transformer issues, and 48 hours for street potholes.",
+    "faq_voice": "You can press the microphone button to record your complaint in your preferred language. Our AI system will automatically detect the department and priority.",
+    "faq_escalate": "If the SLA deadline expires, our system automatically escalates the ticket to the Supervisor, and directly to the Commissioner Dashboard if exceeded by 12 hours."
+  },
+  "notifications_drawer": {
+    "heading": "Notifications",
+    "empty": "No notifications yet.",
+    "mock_1_title": "SLA Reminder: CMP-2026-001",
+    "mock_1_msg": "Your water pipeline complaint has been assigned to Engineer Suresh Rao.",
+    "mock_2_title": "Status Update",
+    "mock_2_msg": "Resolution team dispatched to Ward 1 location."
+  },
+  "map_picker": {
+    "label": "Pin Complaint GPS Location on Map",
+    "instructions": "Click on map or drag marker to set exact location for field officer navigation."
+  },
+  "login": {
+    "signin_title": "Sign In to Service Complaint Portal",
+    "register_title": "Citizen Registration",
+    "platform_subtitle": "Government of Telangana • Municipal Governance Platform",
+    "full_name_label": "Full Name",
+    "full_name_placeholder": "Sri Ramesh Babu",
+    "phone_label": "Mobile Phone",
+    "phone_placeholder": "+91 9876543210",
+    "email_label": "Email Address",
+    "email_placeholder": "citizen@telangana.gov.in",
+    "password_label": "Password",
+    "password_placeholder": "••••••••",
+    "signin_button": "Sign In",
+    "register_button": "Create Account",
+    "toggle_to_register": "Don't have an account? Register as Citizen",
+    "toggle_to_signin": "Already registered? Sign In",
+    "quick_demo_header": "⚡ Quick Demo One-Click Sign In",
+    "demo_citizen": "Citizen Demo",
+    "demo_officer": "Officer Demo",
+    "demo_admin": "Admin Demo"
+  },
+  "complaint_details": {
+    "back_button": "Back to Portal",
+    "loading": "Loading complaint details...",
+    "detailed_description": "Detailed Description",
+    "ward_location": "Ward Location",
+    "priority_level": "Priority Level",
+    "status": "Status",
+    "resolution_sla": "Resolution SLA"
+  },
+  "alerts": {
+    "submit_success": "Complaint Registered Successfully!",
+    "submit_error": "Failed to submit complaint. Please check fields and try again.",
+    "feedback_success": "Thank you! Your feedback has been saved successfully.",
+    "feedback_error": "Failed to submit feedback. Please try again."
+  }
+}

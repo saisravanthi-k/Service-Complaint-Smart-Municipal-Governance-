@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment / secrets
+.env
+
+# Node
+node_modules/
+**/node_modules/
+
+# Vite
+.vite/
+**/.vite/
+
+# Build files
+dist/
+**/dist/
+build/
+**/build/
+
+# Database
+*.db
+
+# Test / generated files
+.coverage
+htmlcov/

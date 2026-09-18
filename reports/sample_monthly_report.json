@@ -1,0 +1,29 @@
+{
+  "report_period": "July 2026",
+  "municipality": "Greater Hyderabad Municipal Corporation (GHMC)",
+  "metrics": {
+    "total_complaints_received": 654,
+    "total_complaints_resolved": 589,
+    "overall_sla_compliance_percent": 90.1,
+    "average_resolution_speed_hours": 14.5,
+    "telugu_voice_filings_percent": 42.8,
+    "citizen_satisfaction_csat": 4.6
+  },
+  "department_breakdown": [
+    {
+      "department": "Water Supply & Sanitation",
+      "complaints": 142,
+      "sla_compliance": 97.1
+    },
+    {
+      "department": "Roads & Infrastructure",
+      "complaints": 198,
+      "sla_compliance": 86.8
+    },
+    {
+      "department": "Electricity & Power Grid",
+      "complaints": 112,
+      "sla_compliance": 97.3
+    }
+  ]
+}
